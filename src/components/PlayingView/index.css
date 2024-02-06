@@ -1,0 +1,44 @@
+.playing-view-container {
+  margin: 10px;
+}
+
+@media screen and (min-width: 506px) {
+  .playing-view-container {
+    margin: 18px;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .playing-view-container {
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .playing-view-container {
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .playing-view-container {
+    margin: 50px;
+  }
+}
+
+.playing-view-button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.playing-view-image {
+  width: 140px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+  .playing-view-image {
+    width: 180px;
+  }
+}
