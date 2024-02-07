@@ -3,6 +3,8 @@ import Popup from 'reactjs-popup'
 import {RiCloseLine} from 'react-icons/ri'
 import PlayingView from '../PlayingView'
 import GameResultView from '../GameResultView'
+
+import Score from './StyledComponents'
 import './index.css'
 
 class RockPaperGame extends Component {
@@ -89,7 +91,7 @@ class RockPaperGame extends Component {
             </div>
             <div className="score-container">
               <p className="score-name">Score</p>
-              <p className="score">{score}</p>
+              <Score>{score}</Score>
             </div>
           </div>
           {showResult ? this.renderGameResultView() : this.renderPlayingView()}

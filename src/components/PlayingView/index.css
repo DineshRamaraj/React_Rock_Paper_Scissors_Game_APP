@@ -26,12 +26,6 @@
   }
 }
 
-.playing-view-button {
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-}
-
 .playing-view-image {
   width: 140px;
   cursor: pointer;

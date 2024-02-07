@@ -174,12 +174,6 @@
   }
 }
 
-.score {
-  font-family: 'Roboto';
-  /* margin: 10px; */
-  color: #223a5f;
-}
-
 /* @media screen and (min-width: 576px) {
   .score {
     font-size: 24px;

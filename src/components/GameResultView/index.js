@@ -1,3 +1,5 @@
+import PlayButton from './StyledComponents'
+
 import './index.css'
 
 const GameResultView = props => {
@@ -40,13 +42,9 @@ const GameResultView = props => {
       </div>
       <div>
         <p className="show-result-message">{resultMsg}</p>
-        <button
-          type="button"
-          className="play-again-button"
-          onClick={onClickPlayAgain}
-        >
+        <PlayButton type="button" onClick={onClickPlayAgain}>
           PLAY AGAIN
-        </button>
+        </PlayButton>
       </div>
     </div>
   )
