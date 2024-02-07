@@ -16,13 +16,9 @@ const PlayingView = props => {
         type="button"
         className="playing-view-button"
         data-testid={`${userId}Button`}
+        onClick={onClickGetId}
       >
-        <img
-          src={imageUrl}
-          alt={id}
-          className="playing-view-image"
-          onClick={onClickGetId}
-        />
+        <img src={imageUrl} alt={id} className="playing-view-image" />
       </button>
     </li>
   )

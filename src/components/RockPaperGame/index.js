@@ -79,6 +79,7 @@ class RockPaperGame extends Component {
 
   render() {
     const {score, showResult} = this.state
+    // console.log(score)
     return (
       <div className="main-app-container">
         <div className="app-container">

@@ -38,14 +38,16 @@ const GameResultView = props => {
           />
         </div>
       </div>
-      <p className="show-result-message">{resultMsg}</p>
-      <button
-        type="button"
-        className="play-again-button"
-        onClick={onClickPlayAgain}
-      >
-        PLAY AGAIN
-      </button>
+      <div>
+        <p className="show-result-message">{resultMsg}</p>
+        <button
+          type="button"
+          className="play-again-button"
+          onClick={onClickPlayAgain}
+        >
+          PLAY AGAIN
+        </button>
+      </div>
     </div>
   )
 }
