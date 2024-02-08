@@ -42,7 +42,11 @@ const GameResultView = props => {
       </div>
       <div>
         <p className="show-result-message">{resultMsg}</p>
-        <PlayButton type="button" onClick={onClickPlayAgain}>
+        <PlayButton
+          type="button"
+          data-testid="PLAY AGAIN"
+          onClick={onClickPlayAgain}
+        >
           PLAY AGAIN
         </PlayButton>
       </div>

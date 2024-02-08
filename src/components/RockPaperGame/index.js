@@ -43,10 +43,9 @@ class RockPaperGame extends Component {
 
   clickPlayAgain = () => {
     const {result} = this.state
-    if (result === 'DRAW') {
+
+    if (result === 'WON') {
       this.setState({showResult: false})
-    } else if (result === 'WON') {
-      this.setState({showResult: false, score: 0})
     } else {
       this.setState({showResult: false})
     }
